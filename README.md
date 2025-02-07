@@ -1,7 +1,7 @@
 # Local LLM RAG Application
 
 ## System Architecture
-![System Architecture](architecture.png)
+![System Architecture](assets/rag_architecture.png)
 
 ### Components:
 1. **Document Processing**
@@ -50,3 +50,38 @@ pip install -r src/requirements.txt
 
 # Run application
 uvicorn src.rag_app.main:app --reload
+```
+
+## RAG Implementation Choices
+1. **Document Chunking**
+    - Chunk size: 1000 characters
+    - Overlap: 100 characters
+    - Rationale: Balances context preservation with query relevance
+
+2. **Vector Database**
+    - Model: all-MiniLM-L6-v2
+    - Rationale: Good performance/speed trade-off for semantic search
+
+3. **LLM Configuration**
+    - Context window: 4096 tokens
+    - Temperature: 0.7
+    - Rationale: Balanced between creativity and accuracy
+
+## Future Improvements
+
+1. **Technical Enhancements** 
+    - Implement batch processing for large documents
+    - Add support for more document types
+    - Improve error handling and logging
+
+
+2. **Features**
+    - Add document summarization
+    - Implement user authentication
+    - Add support for multiple LLM models
+
+
+3. **Performance**
+    - Optimize chunking strategy
+    - Implement caching
+    - Add load balancing for multiple users
