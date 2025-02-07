@@ -1,0 +1,39 @@
+# Torch
+torch==2.2.0
+
+# LangChain Community
+langchain-community==0.2.1
+
+# FastAPI
+fastapi==0.110.0
+
+# ChromaDB
+chromadb==0.4.24
+
+# Pydantic
+pydantic==2.6.1
+pydantic-core==2.16.3
+
+# Requests
+requests==2.31.0
+
+# Uvicorn
+uvicorn==0.27.1
+
+# PyPDFLoader dan UnstructuredHTMLLoader
+langchain-community==0.2.1
+
+# ChromaDB utilities
+chromadb-utils==0.4.24
+
+# Embedding function utilities
+sentence-transformers==2.2.2
+
+# python-multiport for supporting upload file in Fast API
+python-multipart==0.0.9
+
+# Llama.cpp
+llama-cpp-python==0.2.22
+
+#Async dependencies for FastAPI
+async-timeout==4.0.3

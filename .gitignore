@@ -1,0 +1,20 @@
+src/rag_app/COLLECTIONS.txt
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Data & Models
+src/data/*
+src/models/*
+*.gguf
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+src/rag_app/COLLECTIONS.txt
