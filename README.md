@@ -34,8 +34,8 @@
 ### Local Development
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/rag-project.git
-cd rag-project
+git clone https://github.com/DiwaPrasetyo02/rag_local.git
+cd rag_local
 
 # Create virtual environment
 python -m venv venv
